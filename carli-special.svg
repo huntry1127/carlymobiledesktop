@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" role="img" aria-labelledby="title desc">
   <title id="title">Carli Special</title>
-  <desc id="desc">Carli Special monogram and wordmark with Hair Color, Confidence, You tagline.</desc>
+  <desc id="desc">Carli Special CS monogram and wordmark with Hair Color, Confidence, You tagline.</desc>
   <defs>
     <style>
       .serif{font-family:Georgia,"Times New Roman",serif}
@@ -10,11 +10,11 @@
   <g transform="translate(8 10)">
     <circle cx="80" cy="80" r="67" fill="none" stroke="#d9b79f" stroke-width="2"/>
     <circle cx="80" cy="80" r="56" fill="none" stroke="#ead9ca" stroke-width="1"/>
-    <text x="50" y="113" class="serif" font-size="104" fill="#b87952" letter-spacing="-24">C</text>
-    <text x="73" y="115" class="serif" font-size="104" fill="#b87952" letter-spacing="-22">S</text>
+    <text x="38" y="113" class="serif" font-size="96" fill="#b87952">C</text>
+    <text x="78" y="115" class="serif" font-size="92" fill="#302119" stroke="#f8f4ee" stroke-width=".65" paint-order="stroke">S</text>
   </g>
-  <text x="180" y="82" class="serif" font-size="48" font-weight="400" letter-spacing="7" fill="#171514">CARLI SPECIAL</text>
-  <line x1="182" y1="106" x2="588" y2="106" stroke="#d39a76" stroke-width="1.4"/>
-  <circle cx="385" cy="106" r="3.8" fill="#b87952"/>
-  <text x="182" y="134" class="sans" font-size="12" font-weight="600" letter-spacing="3.7" fill="#171514">HAIR COLOR  •  CONFIDENCE  •  YOU</text>
+  <text x="180" y="84" class="serif" font-size="54" font-weight="400" letter-spacing="5.5" fill="#171514">CARLI SPECIAL</text>
+  <line x1="182" y1="108" x2="598" y2="108" stroke="#d39a76" stroke-width="1.5"/>
+  <circle cx="390" cy="108" r="4" fill="#b87952"/>
+  <text x="182" y="138" class="sans" font-size="13" font-weight="600" letter-spacing="3.3" fill="#171514">HAIR COLOR  •  CONFIDENCE  •  YOU</text>
 </svg>

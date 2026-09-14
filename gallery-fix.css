@@ -234,3 +234,20 @@
     font-size:35px;
   }
 }
+
+
+/* Header logo refinement */
+.editorial-brand img{
+  width:230px;
+  max-width:none;
+}
+@media (max-width:760px){
+  .editorial-brand img{
+    width:205px;
+  }
+}
+@media (max-width:390px){
+  .editorial-brand img{
+    width:185px;
+  }
+}

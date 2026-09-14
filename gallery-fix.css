@@ -180,3 +180,57 @@
     backdrop-filter:blur(5px);
   }
 }
+
+
+/* Mobile approach section correction */
+@media (max-width:760px){
+  .editorial-quote{
+    min-height:0;
+    padding:72px 20px 78px;
+    text-align:left;
+  }
+  .editorial-quote__inner{
+    max-width:34rem;
+  }
+  .editorial-quote .editorial-kicker{
+    margin:0 0 22px;
+    color:#a66b4b;
+    font-family:var(--sans);
+    font-size:9px;
+    font-weight:700;
+    line-height:1.4;
+    letter-spacing:.28em;
+  }
+  .editorial-quote blockquote{
+    max-width:15ch;
+    margin:0 0 28px;
+    font-size:clamp(34px,10.2vw,42px);
+    line-height:1.02;
+    letter-spacing:-.025em;
+  }
+  .editorial-quote p.editorial-quote__note{
+    max-width:31ch;
+    margin:0;
+    color:#74685f;
+    font-family:var(--serif);
+    font-size:clamp(18px,5.2vw,22px);
+    font-weight:400;
+    line-height:1.5;
+    letter-spacing:0;
+  }
+  .editorial-quote::after{
+    right:-8vw;
+    bottom:-4vw;
+    font-size:46vw;
+    opacity:.72;
+  }
+}
+
+@media (max-width:390px){
+  .editorial-quote{
+    padding-inline:18px;
+  }
+  .editorial-quote blockquote{
+    font-size:35px;
+  }
+}

@@ -10,7 +10,7 @@ button{font:inherit}
 .editorial-nav{display:flex;align-items:center;gap:34px}
 .editorial-nav a{color:#fff;font-size:10px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;opacity:.88}
 .editorial-nav a:hover{opacity:1}
-.editorial-nav__cta{padding:20px 29px;background:#b77851;opacity:1!important}
+.editorial-nav__cta{padding:20px 29px;background:#955236;opacity:1!important}
 .editorial-menu-toggle{display:none;background:none;border:0;width:42px;height:42px;position:relative;z-index:110}
 .editorial-menu-toggle span{position:absolute;left:10px;width:22px;height:1px;background:#fff;transition:.2s}
 .editorial-menu-toggle span:first-child{top:17px}.editorial-menu-toggle span:last-child{top:25px}
@@ -25,7 +25,7 @@ button{font:inherit}
 .editorial-hero__lede{max-width:500px;margin:30px 0 0;color:rgba(255,255,255,.82);font-size:15px;line-height:1.65}
 .editorial-actions{display:flex;gap:14px;margin-top:34px}
 .editorial-button{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 25px;font-size:10px;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
-.editorial-button--solid{background:#b77851;color:#fff}
+.editorial-button--solid{background:#955236;color:#fff}
 .editorial-button--ghost{border:1px solid rgba(255,255,255,.58);color:#fff}
 
 .editorial-menu{padding:110px 8vw 105px;background:#f8f4ee;color:#302119}
@@ -103,7 +103,7 @@ button{font:inherit}
   transform:translate(3px,-3px);
 }
 .editorial-center{text-align:center;margin-top:50px}
-.editorial-text-link{display:inline-flex;gap:12px;align-items:center;color:#9e6344;font-size:10px;font-weight:700;letter-spacing:.2em}
+.editorial-text-link{display:inline-flex;gap:12px;align-items:center;color:#905337;font-size:10px;font-weight:700;letter-spacing:.2em}
 
 .editorial-work{padding:105px 0 0;background:#f8f4ee;color:#302119;border-top:1px solid #ded4ca}
 .editorial-work__head{padding:0 3.2vw 52px}

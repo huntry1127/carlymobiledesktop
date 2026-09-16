@@ -66,3 +66,14 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #f0
  .editorial-header .brand-lockup__type small{font-size:4.6px;color:#fff;text-shadow:0 1px 5px rgba(31,19,13,.75)}
  .editorial-header.is-scrolled:not(.is-open) .brand-lockup__type small{color:#5b392a;text-shadow:none}
 }
+
+/* Mobile header remains dark while scrolling, so keep the wordmark bright */
+@media(max-width:760px){
+ .editorial-header.is-scrolled .editorial-brand,
+ .editorial-header.is-scrolled:not(.is-open) .editorial-brand{color:#fff}
+ .editorial-header.is-scrolled .brand-lockup__type small,
+ .editorial-header.is-scrolled:not(.is-open) .brand-lockup__type small{color:#fff;text-shadow:0 1px 5px rgba(31,19,13,.75)}
+ .editorial-header .brand-lockup__mark{width:38px!important;height:45px!important}
+ .editorial-header .brand-lockup__type strong{font-size:18px}
+ .editorial-header .brand-lockup__type small{font-size:5px}
+}

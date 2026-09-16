@@ -77,3 +77,23 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #f0
  .editorial-header .brand-lockup__type strong{font-size:18px}
  .editorial-header .brand-lockup__type small{font-size:5px}
 }
+
+/* Fix mobile menu collapsing inside the blurred scrolled header */
+@media(max-width:760px){
+ .editorial-header.is-scrolled{
+  -webkit-backdrop-filter:none;
+  backdrop-filter:none;
+ }
+ .editorial-header.is-open .editorial-nav,
+ .editorial-header.is-scrolled.is-open .editorial-nav{
+  position:fixed!important;
+  inset:72px 0 0!important;
+  width:100%!important;
+  height:calc(100dvh - 72px)!important;
+  min-height:calc(100vh - 72px);
+  max-height:none!important;
+  overflow-y:auto!important;
+  overscroll-behavior:contain;
+  z-index:105;
+ }
+}

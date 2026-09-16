@@ -50,3 +50,19 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #f0
 
 /* New Carli Special brand lockup */
 .brand-lockup{display:inline-flex;align-items:center;gap:11px;color:inherit;line-height:1}.brand-lockup__mark{flex:0 0 auto!important;width:38px!important;height:44px!important;object-fit:contain}.brand-lockup__type{display:flex;flex-direction:column;align-items:center;gap:7px}.brand-lockup__type strong{font-family:Georgia,"Times New Roman",serif;font-size:19px;font-weight:400;letter-spacing:.27em;line-height:1;white-space:nowrap}.brand-lockup__type small{font-family:Arial,Helvetica,sans-serif;font-size:5px;font-weight:700;letter-spacing:.31em;line-height:1;white-space:nowrap}.brand-lockup__type i{color:#c98c67;font-style:normal}.editorial-brand{color:#fff}.editorial-brand img{transition:none}.editorial-header.is-scrolled .editorial-brand{color:#302119}.editorial-footer__brand .brand-lockup{color:#f7f0e8}.editorial-footer__brand .brand-lockup__mark{width:54px!important;height:62px!important}.editorial-footer__brand .brand-lockup__type strong{font-size:24px}.editorial-footer__brand .brand-lockup__type small{font-size:6px}@media(max-width:760px){.brand-lockup{gap:8px}.brand-lockup__mark{width:31px!important;height:37px!important}.brand-lockup__type{gap:5px}.brand-lockup__type strong{font-size:15px;letter-spacing:.22em}.brand-lockup__type small{font-size:4px;letter-spacing:.22em}.editorial-header.is-open .editorial-brand{color:#fff}.editorial-footer__brand .brand-lockup__mark{width:46px!important;height:54px!important}.editorial-footer__brand .brand-lockup__type strong{font-size:20px}}
+
+/* Brand sizing and tagline legibility refinement */
+.editorial-header .brand-lockup{gap:13px}
+.editorial-header .brand-lockup__mark{width:44px!important;height:52px!important}
+.editorial-header .brand-lockup__type{gap:8px}
+.editorial-header .brand-lockup__type strong{font-size:22px}
+.editorial-header .brand-lockup__type small{color:#fff;font-size:6px;text-shadow:0 1px 5px rgba(31,19,13,.7)}
+.editorial-header.is-scrolled .brand-lockup__type small{color:#5b392a;text-shadow:none}
+@media(max-width:760px){
+ .editorial-header .brand-lockup{gap:9px}
+ .editorial-header .brand-lockup__mark{width:35px!important;height:42px!important}
+ .editorial-header .brand-lockup__type{gap:6px}
+ .editorial-header .brand-lockup__type strong{font-size:17px}
+ .editorial-header .brand-lockup__type small{font-size:4.6px;color:#fff;text-shadow:0 1px 5px rgba(31,19,13,.75)}
+ .editorial-header.is-scrolled:not(.is-open) .brand-lockup__type small{color:#5b392a;text-shadow:none}
+}

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
 /* Carli Special service gallery polish — v0.8.2 */
 
 .editorial-work{
@@ -266,4 +268,13 @@
 /* Keep the grey-coverage portrait focused on the face and finished hair. */
 .editorial-gallery--services .editorial-gallery__item img.editorial-gallery__grey-coverage{
   object-position:center 25%;
+}
+
+/* Karla typography for the header wordmark, tagline, and navigation. */
+.editorial-header,
+.editorial-header .brand-lockup__type strong,
+.editorial-header .brand-lockup__type small,
+.editorial-header .editorial-nav a,
+.editorial-header .editorial-menu-toggle{
+  font-family:"Karla",Arial,Helvetica,sans-serif;
 }

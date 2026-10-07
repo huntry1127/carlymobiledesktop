@@ -257,3 +257,8 @@
     width:220px;
   }
 }
+
+/* Keep the grey-coverage portrait focused on the face and finished hair. */
+.editorial-gallery--services .editorial-gallery__item img.editorial-gallery__grey-coverage{
+  object-position:center 25%;
+}
